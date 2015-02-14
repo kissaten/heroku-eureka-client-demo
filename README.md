@@ -9,7 +9,7 @@ Before using this project, you must have a [Eureka Server](https://github.com/ki
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Once it's deployed, you will need to define a `$EUREKA_URL` config variable as described below.
+Once it's deployed, you will need to define `$EUREKA_URL` and `$DOMAIN_NAME` config variables as described below.
 
 ## Deployment
 

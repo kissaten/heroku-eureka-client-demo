@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/eureka-client-demo-*.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/eureka-client-demo-*.jar --spring.profiles.active=heroku

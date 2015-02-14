@@ -39,7 +39,7 @@ Run this command, but substitute the URL for `<URL>`:
 $ heroku config:set EUREKA_URL=<URL>
 ```
 
-You're ready to deploy. There are two methods you can use: Git deployment and
+You're ready to deploy. There are two methods you can choose from: Git deployment and
 Maven deployment. The former compiles the application remotely, while the latter
 uses locally compiled artifacts and pushes them to Heroku.
 

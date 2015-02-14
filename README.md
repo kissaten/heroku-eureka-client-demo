@@ -33,7 +33,7 @@ Git remote heroku added
 ```
 
 Now create a configuration variable to set the URL of the Eureka server.
-Run this command, but substitute the URL for `<URL>`:
+Run this command, but substitute the URL for `<URL>` in the form `https://user:password@<appname>.herokuapp.com`:
 
 ```
 $ heroku config:set EUREKA_URL=<URL>

@@ -2,5 +2,5 @@
   "name": "Eureka Client",
   "description": "Eureka Client demo project.",
   "website": "https://github.com/kissaten/heroku-eureka-client-demo",
-  "success_url": "/"
+  "success_url": "/health"
 }

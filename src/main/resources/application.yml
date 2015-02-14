@@ -11,6 +11,6 @@ spring:
   profiles: heroku
 eureka:
   instance:
-    hostname: ${URL}
+    hostname: ${DOMAIN_NAME}
     nonSecurePort: 80
   password: ${EUREKA_USER_PASSWORD:password}

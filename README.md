@@ -39,6 +39,13 @@ Run this command, but substitute the URL for `<URL>` in the form `https://user:p
 $ heroku config:set EUREKA_URL=<URL>
 ```
 
+Also create a configuration variable for the domain name of your service -- this is the domain name that can be used
+to consume your service. By default it will be `<appname>.herokuapp.com`. You can set it like this:
+
+```
+$ heroku config:set DOMAIN_NAME="<appname>.herokuapp.com"
+```
+
 You're ready to deploy. There are two methods you can choose from: Git deployment and
 Maven deployment. The former compiles the application remotely, while the latter
 uses locally compiled artifacts and pushes them to Heroku.

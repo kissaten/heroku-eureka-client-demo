@@ -2,5 +2,13 @@
   "name": "Eureka Client",
   "description": "Eureka Client demo project.",
   "website": "https://github.com/kissaten/heroku-eureka-client-demo",
-  "success_url": "/health"
+  "success_url": "/health",
+  "env": {
+    "EUREKA_URL": {
+        "description": "URL of the Eureka Server."
+    },
+    "DOMAIN_NAME": {
+        "description": "<appname>.herokuapp.com"
+    }
+  }
 }

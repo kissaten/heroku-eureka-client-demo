@@ -8,7 +8,7 @@
       "description": "URL of the Eureka Server in the form http://<user>:<password>@<host>."
     },
     "DOMAIN_NAME": {
-      "description": "<appname>.herokuapp.com"
+      "description": "The domain name of this app. For example: <appname>.herokuapp.com"
     },
     "EUREKA_USER_PASSWORD": {
       "description": "Password for the app.",

@@ -5,7 +5,7 @@
   "success_url": "/health",
   "env": {
     "EUREKA_URL": {
-      "description": "URL of the Eureka Server in the form http://<user>:<password>@<host>."
+      "description": "URL of the Eureka Server in the form http://<user>:<password>@<host>"
     },
     "DOMAIN_NAME": {
       "description": "The domain name of this app. For example: <appname>.herokuapp.com"

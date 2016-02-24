@@ -9,10 +9,6 @@
     },
     "DOMAIN_NAME": {
       "description": "The domain name of this app. For example: <appname>.herokuapp.com"
-    },
-    "USER_PASSWORD": {
-      "description": "Password for the app.",
-      "generator": "secret"
     }
   }
 }
